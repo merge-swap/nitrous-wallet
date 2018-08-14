@@ -109,7 +109,7 @@ public:
         nMaxReorganizationDepth = 100;
         nEnforceBlockUpgradeMajority = 510;
         nRejectBlockOutdatedMajority = 650;
-        nToCheckBlockUpgradeMajority = 1000;
+        nToCheckBlockUpgradeMajority = 750;
         nMinerThreads = 0;
         nTargetTimespan = 5 * 60; // 5 minutes
         nTargetSpacing = 1 * 60;
@@ -131,7 +131,7 @@ public:
 	//}
         nMasternodeColleteralLimxDev = 10000; //Params().MasternodeColleteralLimxDev()
         nModifierUpdateBlock = 50000; // we use the version 2 for dmd
-        nMaxMoneyOut = 250000000 * COIN;
+        nMaxMoneyOut = 25000000 * COIN;
 
         const char* pszTimestamp = "MSNBC 4/June/2018 Trump tweets that he has absolute right to pardon himself";
         CMutableTransaction txNew;
