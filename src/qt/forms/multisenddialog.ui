@@ -10,7 +10,7 @@
     <x>0</x>
     <y>0</y>
     <width>652</width>
-    <height>300</height>
+    <height>785</height>
    </rect>
   </property>
   <property name="windowTitle">
@@ -71,19 +71,6 @@ MultiSend will not be activated unless you have clicked Activate</string>
    </property>
    <property name="wordWrap">
     <bool>true</bool>
-   </property>
-  </widget>
-  <widget class="QLabel" name="message">
-   <property name="geometry">
-    <rect>
-     <x>290</x>
-     <y>200</y>
-     <width>351</width>
-     <height>91</height>
-    </rect>
-   </property>
-   <property name="text">
-    <string/>
    </property>
   </widget>
   <widget class="QPushButton" name="addButton">
@@ -238,8 +225,8 @@ MultiSend will not be activated unless you have clicked Activate</string>
     <rect>
      <x>30</x>
      <y>100</y>
-     <width>351</width>
-     <height>24</height>
+     <width>551</width>
+     <height>33</height>
     </rect>
    </property>
    <layout class="QHBoxLayout" name="horizontalLayout">
@@ -258,6 +245,19 @@ MultiSend will not be activated unless you have clicked Activate</string>
      </widget>
     </item>
    </layout>
+  </widget>
+  <widget class="QLabel" name="message">
+   <property name="geometry">
+    <rect>
+     <x>290</x>
+     <y>220</y>
+     <width>351</width>
+     <height>511</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
   </widget>
  </widget>
  <resources>
